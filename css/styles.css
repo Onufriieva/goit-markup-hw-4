@@ -223,7 +223,7 @@ h1,h2,h3 {
     font-family: 'Roboto';    
     text-align: center;
 
-    background-image: url("./GOIT-MARKUP-HW-4/images/background.jpg");
+    background-image: url("/images/img.background.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
