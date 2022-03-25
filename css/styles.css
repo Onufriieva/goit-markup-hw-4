@@ -220,10 +220,12 @@ h1,h2,h3 {
     padding-top: 200px;
     padding-bottom: 200px;
     background-color: var(--background-footer);
-    font-family: 'Roboto';
-    
+    font-family: 'Roboto';    
     text-align: center;
 
+    background-image: url("./GOIT-MARKUP-HW-4/images/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 
