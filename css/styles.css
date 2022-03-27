@@ -330,6 +330,22 @@ h1,h2,h3 {
     margin-right: 0;
 }
 
+.container-svg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 270px;
+    height: 120px;
+    background-color: rgba(245, 244, 250, 1);
+    margin-bottom: 30px;
+    color: var(--title-font);
+}
+
+.icons-peculiarities {
+  fill: currentColor;
+ 
+}
+
 .peculiarities-text {
 
     display: inline-block;   
@@ -341,10 +357,7 @@ h1,h2,h3 {
     color: var(--main-font-color);
 }
 
-.icons-peculiarities {
-    background-color: aqua;
-    margin-bottom: 30px;
-}
+
 
 
 /*Works*/
@@ -492,6 +505,10 @@ margin-right: 0;
 .team-icons-item {
     margin-right: 10px;
     border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    justify-content: center;
+    align-items: center;
 
     background-color: aqua;
 }
@@ -499,6 +516,20 @@ margin-right: 0;
 .team-icons-item:last-child{
     margin-right: 0;
 }
+
+.team-list-icons .socil-link {
+        display: flex;
+        align-items: center;
+      
+}
+
+.social-icon {
+    fill: currentColor;
+ 
+
+}
+
+
 
 
 
@@ -542,6 +573,14 @@ margin-right: 0;
     .link-client {
         width: 100%;
         height: 100%;
+    }
+
+    .container-clients {
+        width: 170px;
+        height: 92px;
+        border: 1px;
+        border-color: rgba(175, 177, 184, 1);
+        border-radius: 4px;
     }
 
 /*Footer*/
